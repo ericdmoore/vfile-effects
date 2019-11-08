@@ -1,4 +1,4 @@
-# vfile Side Effects
+# vfile Effects
 
 If you are already adept with pure & impure fucntions, and side effects; then slide on down to What is vFile-Effects.
 
