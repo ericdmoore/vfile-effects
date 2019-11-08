@@ -101,15 +101,12 @@ As previously mentioned there are a few parts available for usage:
 
 ## Reference Material
 
-1. Guides
-2. API Reference
-3. Community Chat
-4. Examples
-5. Andvanced Topics
+1. Guides (forthcoming)
+2. API Reference (forthcoming)
+3. Community Chat (forthcoming)
+4. Examples (forthcoming)
+5. Andvanced Topics (forthcoming)
 
-vFile some processor that splits the content based on the `<!-- more -->` flag.
-
-Adding the `except content` and the `remaining content` as separate files that should be generated but only represented in the `vfile.data` section
 
 ## Motivating Example: Mermaidjs
 
@@ -117,7 +114,9 @@ Adding the `except content` and the `remaining content` as separate files that s
 
 ### Quickly: What is it?
 
-`remark-mermaid-plugin-inline` is a plugin that generates charts from an easily understood text-syntax for generating SVG charts. Yes, one already exists, but I was hoping for a little more functionality. plus, I wished that it did not assume it could just drop commands on the shell.
+`remark-mermaid-plugin-inline` is a unified plugin that generates svg charts from an easily understood text based syntax. 
+
+Yes, one already exists, but I was hoping for a little more functionality. plus, I wished that it did not assume it could just drop commands on the shell.
 
 ### NOTES:
 
@@ -270,9 +269,15 @@ graph LR
 
 ## Motivating Example: Paywall Excepts
 
-Say Your blog site required some arbitrary requirement that you had to split your file into separate chunks for the preview, teaser, and paywall sections of an article.
+`remark-content-separation-flags`
 
-Using the article splitter - you could keep your prose in tact as a complete work (a much more tenable editorial process) but then post-process your file so that your work was appropriately split up into chunks to meet some file system layout requirement.
+### Quickly: What is it?
+
+a unified plugin that allows authors to compose prose in a natrual and holistic manner, and then to chop it up into chunks such they can eek out a reasonable living by writing. Author would be able to write integrated `preview content` and the rest of the piece and the plugin would be able to split it into two.
+
+Say your news desk software required that authorts split up your articles into two files: 1 chunk for the preview, and at least 1 other for the rest. Optionally, you could slice it down further, into smaller sub-sections.
+
+Using the article splitter, you could keep your prose in tact as a complete work (a much more tenable editorial process) but then post-process your file so that your work was appropriately split up into chunks to meet some file system layout requirement.
 
 You might use the common tag of `<!-- more -->` to separate the preview from the body. You could use the same tag again `<!-- more -->` or you might use something more semantic `<!-- teaserEnd -->` or `<!-- startPaywall -->`
 
@@ -283,10 +288,12 @@ Front Matter
 Introduction
 supporting statements
 `<!-- more -->`
+Rich Media
 Controversial Claim1
 supporting statements
 supporting statements
 Controversial Claim2
+Rich Media
 supporting statements
 supporting statements
 Opening Premise of Conclusion
