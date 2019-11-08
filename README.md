@@ -35,7 +35,7 @@ Wow, you are quite the reader! Let's keep going. After you still might be trying
 So if you are a developer using unifiedjs like this
 
 ```javascript
-unified().use(somePLugin).process(textString)
+unified().use(somePLuginPreset).process(textString)
 ```
 
 life will continue on with the one caveat that perhaps one plugin might inform you that it would like to byt has not added a file to your hard drive.
