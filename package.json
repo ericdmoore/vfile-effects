@@ -1,0 +1,56 @@
+{
+  "name": "vfile-effects",
+  "version": "0.1.0",
+  "description": "Manaaged Side Effects for vfiles",
+  "main": "dist/vfile-effects.js",
+  "author": "Eric D Moore",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc",
+    "test": "jest"
+  },
+  "homepage": "https://github.com/ericdmoore/vfile-effects#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericdmoore/vfile-effects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ericdmoore/vfile-effects/issues"
+  },
+  "keywords": [
+    "side",
+    "effeects",
+    "pure",
+    "effects",
+    "fs",
+    "http"
+  ],
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.3",
+    "eslint-plugin-jsdoc": "^17.1.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-utils": "^1.4.3",
+    "jest": "^24.9.0",
+    "lodash": "^4.17.15",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typedoc": "^0.15.0",
+    "typedoc-plugin-external-module-name": "^2.1.0",
+    "typedoc-plugin-internal-external": "^2.0.2",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.5.3",
+    "@types/vfile": "^4.0.0",
+    "to-vfile": "^6.0.0",
+    "vfile": "^4.0.1"
+  }
+}
